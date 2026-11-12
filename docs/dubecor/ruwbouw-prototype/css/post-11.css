@@ -1,0 +1,160 @@
+.elementor-kit-11{--e-global-color-primary:#009FAE;--e-global-color-secondary:#103D41;--e-global-color-text:#1B1D1D;--e-global-color-accent:#F7F7F7;--e-global-color-b5f1b23:#FFFFFF;--e-global-color-1949bbe:#125E65;--e-global-color-87d0b18:#F0F5F5;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;color:var( --e-global-color-text );font-family:"Maven Pro", Sans-serif;font-size:15.5px;line-height:1.6em;}.elementor-kit-11 button,.elementor-kit-11 input[type="button"],.elementor-kit-11 input[type="submit"],.elementor-kit-11 .elementor-button{background-color:var( --e-global-color-primary );font-size:1em;font-weight:500;color:var( --e-global-color-b5f1b23 );border-radius:200px 200px 200px 200px;padding:12px 25px 12px 25px;}.elementor-kit-11 button:hover,.elementor-kit-11 button:focus,.elementor-kit-11 input[type="button"]:hover,.elementor-kit-11 input[type="button"]:focus,.elementor-kit-11 input[type="submit"]:hover,.elementor-kit-11 input[type="submit"]:focus,.elementor-kit-11 .elementor-button:hover,.elementor-kit-11 .elementor-button:focus{background-color:var( --e-global-color-1949bbe );color:var( --e-global-color-b5f1b23 );border-radius:200px 200px 200px 200px;}.elementor-kit-11 e-page-transition{background-color:#FFBC7D;}.elementor-kit-11 a{color:var( --e-global-color-primary );}.elementor-kit-11 h1{color:var( --e-global-color-secondary );font-size:2.6em;font-weight:600;line-height:1.4em;}.elementor-kit-11 h2{color:var( --e-global-color-secondary );font-size:1.8em;font-weight:600;line-height:1.4em;}.elementor-kit-11 h3{color:var( --e-global-color-secondary );font-size:1.6em;font-weight:600;line-height:1.4em;}.elementor-kit-11 h4{color:var( --e-global-color-secondary );font-size:1.3em;font-weight:500;line-height:1.4em;}.elementor-kit-11 h5{color:var( --e-global-color-secondary );font-size:1.1em;font-weight:600;line-height:1.3em;}.elementor-kit-11 h6{color:var( --e-global-color-primary );font-size:12px;font-weight:500;letter-spacing:2px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1400px;}.e-con{--container-max-width:1400px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-lightbox{--lightbox-ui-color-hover:var( --e-global-color-primary );}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-11{font-size:16px;line-height:1.7em;}.elementor-kit-11 h1{font-size:1.7em;}.elementor-kit-11 h2{font-size:1.4em;}.elementor-kit-11 h3{font-size:1.2em;}.elementor-kit-11 h4{font-size:1.1em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//****** algemeen ******/
+.elementor-section{ padding: 0 6%;}
+
+.elementor-inner-section{ padding: unset;}
+
+
+.c-unset a {color: unset;}
+
+/******  site *******/
+
+.elementor-widget-theme-post-content h4, .elementor-widget-theme-post-content h3{
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+strong{
+    font-weight: 500;
+}
+
+.elementor-accordion .elementor-accordion-item {
+    border: none;
+    border-bottom: 1px solid #FFFFFF26;
+}
+
+.grid-center .jet-listing-grid__items {
+    justify-content: center;
+}
+
+.jet-listing-grid__slider-icon{
+    border-radius: 200px;
+    border: 1px solid white;
+}
+
+
+.elementor-widget-theme-post-content ul{
+    margin-bottom: 25px;
+    padding-left: 18px;
+}
+
+.elementor-widget-theme-post-content li{
+    padding-left: 10px; 
+    padding-bottom: 5px;
+}
+
+
+
+
+::marker {
+    color: #009FAE;
+}
+
+/******  Gravity forms *******/
+
+.gform_fields .textarea, .gform-grid-col input, .gform_fields input{
+    background-color: var(--e-global-color-accent);
+    border: 0px; 
+    border-radius: 0px;
+    padding: 8px 14px!important;
+}
+
+p.gform_required_legend{
+    display: none;
+}
+
+.gform_button{
+    border: 0px;
+    padding: 12px 25px 12px 25px;
+}
+
+
+
+/******  selection *******/
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #009FAE;
+}
+
+::selection {
+  color: white;
+  background: #009FAE;
+}
+
+
+/** Cookies **/
+
+.cky-notice .cky-title {
+    font-weight: 500!important;
+    font-size: 14px!important;
+    margin-bottom: 5px!important;
+}
+
+
+.cky-notice-des{
+    font-size: 12px!important;
+    line-height: 18px!important;
+}
+
+button.cky-btn {
+    font-size: 12px!important;
+    padding: 3px!important;
+}
+
+
+button.cky-btn.cky-btn-accept{
+background-color: var(--e-global-color-primary)!important;
+border-color: var(--e-global-color-primary)!important;
+}
+
+button.cky-btn.cky-btn-reject, button.cky-btn.cky-btn-customize, button.cky-btn.cky-btn-preferences{
+    color: #b7b7b7!important; 
+    border-color: #b7b7b7!important;
+}
+
+.cky-btn-revisit-wrapper.cky-revisit-bottom-left {
+    background-color: var(--e-global-color-primary)!important;
+}
+
+ /******  Uitlijning iconen lijst *******/
+ 
+ .elementor-widget .elementor-icon-list-item, .elementor-widget .elementor-icon-list-item a {
+    align-items: baseline;
+}
+
+span.elementor-icon-list-icon {
+    padding-top: 5px;
+}
+
+
+
+ 
+
+ /******  .menu-mobile *******/
+
+.menu-mobile a{
+    display: none!important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .menu-mobile a{
+    display: flex!important;
+}}
+
+@media only screen and (max-width: 767px) {
+  .center-mobile a{
+    justify-content: center!important;
+    text-align: center!important;
+}
+}
+
+
+ /******  anchor link  *******/
+body:not(.elementor-editor-active) .elementor-menu-anchor:before {
+content: "";
+display:block;
+height: 100px; /* fixed header height*/
+margin: -150px 0 0; /* negative fixed header height */
+visibility: hidden;
+pointer-events: none;
+}/* End custom CSS */
